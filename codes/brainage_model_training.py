@@ -103,9 +103,9 @@ if __name__ == '__main__':
             print('best model', model)
 
         print('Output file name')
-        print(output_path / f'{output_prefix}.{model_names[i]}.models')
-        pickle.dump(models, open(output_path / f'{output_prefix}.{model_names[i]}.models', "wb"))
-        pickle.dump(scores_cv, open(output_path / f'{output_prefix}.{model_names[i]}.scores', "wb"))
+#        print(output_path / f'{output_prefix}.{model_names[i]}.models')
+#        pickle.dump(models, open(output_path / f'{output_prefix}.{model_names[i]}.models', "wb"))
+#        pickle.dump(scores_cv, open(output_path / f'{output_prefix}.{model_names[i]}.scores', "wb"))
 
     print('ALL DONE')
     print("--- %s seconds ---" % (time.time() - start_time))
