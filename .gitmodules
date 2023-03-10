@@ -1,0 +1,3 @@
+[submodule "julearn"]
+	path = julearn
+	url = https://github.com/juaml/julearn.git
