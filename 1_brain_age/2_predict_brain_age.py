@@ -126,3 +126,5 @@ wide_df = all_scores.melt(
 sns.catplot(
     x="model", y="value", col="metric", data=wide_df, kind="box", sharey=False
 )
+
+# %%
