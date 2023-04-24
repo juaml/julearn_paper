@@ -11,6 +11,7 @@ from julearn import run_cross_validation
 from julearn.pipeline import PipelineCreator
 from julearn.model_selection import RepeatedStratifiedGroupsKFold
 from julearn.utils import configure_logging
+from julearn.stats import corrected_ttest
 
 import seaborn as sns
 
@@ -46,8 +47,6 @@ qc = pd.cut(bins_on.tolist(), n_bins)  # divides data in bins
 data_df["bins"] = qc.codes
 print(data_df.head())
 
-# %% variables to keep both models scores
-all_scores = []
 # %%
 # Model 1: RVR
 creator = PipelineCreator(problem_type="regression")
@@ -61,7 +60,7 @@ cv = RepeatedStratifiedGroupsKFold(
     n_splits=n_splits, n_repeats=n_repeats, random_state=rand_seed
 )
 
-scores = run_cross_validation(
+scores1 = run_cross_validation(
     X=["f_.*"],
     y="age",
     groups="bins",
@@ -75,8 +74,7 @@ scores = run_cross_validation(
         "r2",
     ],
 )
-scores["model"] = "rvr"
-all_scores.append(scores)
+scores1["model"] = "rvr"
 
 # %%
 # Model 2: GPR
@@ -91,11 +89,7 @@ creator.add(
     random_state=rand_seed,
 )
 
-cv = RepeatedStratifiedGroupsKFold(
-    n_splits=n_splits, n_repeats=n_repeats, random_state=rand_seed
-)
-
-scores = run_cross_validation(
+scores2 = run_cross_validation(
     X=["f_.*"],
     y="age",
     groups="bins",
@@ -109,15 +103,13 @@ scores = run_cross_validation(
         "r2",
     ],
 )
-scores["model"] = "gauss"
-all_scores.append(scores)
-# %%
-# Create on single dataframe with all scores
-all_scores = pd.concat(all_scores)
+scores2["model"] = "gauss"
 
 # %%
 # Plot
 sns.set_style("darkgrid")
+
+all_scores = pd.concat([scores1, scores2], axis=0])
 
 wide_df = all_scores.melt(
     id_vars=["model", "fold", "repeat"], var_name="metric"
@@ -128,3 +120,5 @@ sns.catplot(
 )
 
 # %%
+stats_df = corrected_ttest(scores1, scores2)
+print(stats_df)
