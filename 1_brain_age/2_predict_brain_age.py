@@ -142,7 +142,7 @@ print(model3.best_params_)
 
 
 # %%
-all_scores = pd.concat([scores1, scores2], axis=0)
+all_scores = pd.concat([scores1, scores2, scores3], axis=0)
 all_scores.to_csv(output_file, index=False)
 
 # Plot
@@ -158,10 +158,10 @@ all_scores.to_csv(output_file, index=False)
 
 # %%
 #corrected ttest
-stats_df = corrected_ttest(scores1, scores2)
+stats_df = corrected_ttest(scores1, scores2, scores3)
 print(stats_df)
 
 # %%
 # Interactive plot
-panel = plot_scores(scores1, scores2)
+panel = plot_scores(scores1, scores2, scores3)
 panel.show()
