@@ -12,25 +12,29 @@ from julearn.pipeline import PipelineCreator
 from julearn.model_selection import RepeatedStratifiedGroupsKFold
 from julearn.utils import configure_logging
 from julearn.stats import corrected_ttest
+from julearn.viz import plot_scores
 
 import seaborn as sns
+
 
 # %%
 configure_logging(level="INFO")
 
-data_dir = Path(__file__).parent.parent / "data"
+#data_dir = Path(__file__).parent.parent / "data"
+data_dir = Path('../data/')
+output_dir = Path('../results/')
 
 input_file = data_dir / "ixi.S4_R8.csv"
+output_file = output_dir / "ixi.S4_R8_scores.csv"
 
 data_df = pd.read_csv(input_file)
-
 print(data_df.head())
 
 # %%
 # Set up the parameters for the cross-validation
 rand_seed = 200
-n_repeats = 1
-n_splits = 3
+n_repeats = 5
+n_splits = 5
 scoring = [
     "neg_mean_absolute_error",
     "neg_mean_squared_error",
@@ -60,21 +64,22 @@ cv = RepeatedStratifiedGroupsKFold(
     n_splits=n_splits, n_repeats=n_repeats, random_state=rand_seed
 )
 
-scores1 = run_cross_validation(
-    X=["f_.*"],
-    y="age",
-    groups="bins",
-    data=data_df,
-    model=creator,
-    cv=cv,
-    seed=rand_seed,
-    scoring=[
-        "neg_mean_absolute_error",
-        "neg_mean_squared_error",
-        "r2",
-    ],
+scores1, model1 = run_cross_validation(
+   X=["f_.*"],
+   y="age",
+   groups="bins",
+   data=data_df,
+   model=creator,
+   cv=cv,
+   seed=rand_seed,
+   scoring=[
+       "neg_mean_absolute_error",
+       "neg_mean_squared_error",
+       "r2",
+   ],
 )
 scores1["model"] = "rvr"
+print(model1.best_params_)
 
 # %%
 # Model 2: GPR
@@ -89,36 +94,74 @@ creator.add(
     random_state=rand_seed,
 )
 
-scores2 = run_cross_validation(
-    X=["f_.*"],
-    y="age",
-    groups="bins",
-    data=data_df,
-    model=creator,
-    cv=cv,
-    seed=rand_seed,
-    scoring=[
-        "neg_mean_absolute_error",
-        "neg_mean_squared_error",
-        "r2",
-    ],
+scores2, model2 = run_cross_validation(
+   X=["f_.*"],
+   y="age",
+   groups="bins",
+   data=data_df,
+   model=creator,
+   cv=cv,
+   seed=rand_seed,
+   scoring=[
+       "neg_mean_absolute_error",
+       "neg_mean_squared_error",
+       "r2",
+   ],
 )
 scores2["model"] = "gauss"
+print(model2.best_params_)
+
 
 # %%
+# Model 3: SVM
+creator = PipelineCreator(problem_type="regression")
+creator.add("select_variance", threshold=1e-5)
+creator.add("pca")
+creator.add(
+    "svm", 
+    kernel=["linear", "rbf", "poly"], 
+    C=[0.01, 0.1]
+    )
+
+scores3, model3 = run_cross_validation(
+   X=["f_.*"],
+   y="age",
+   groups="bins",
+   data=data_df,
+   model=creator,
+   cv=cv,
+   seed=rand_seed,
+   scoring=[
+       "neg_mean_absolute_error",
+       "neg_mean_squared_error",
+       "r2",
+   ],
+)
+scores3["model"] = "svm"
+print(model3.best_params_)
+
+
+# %%
+all_scores = pd.concat([scores1, scores2], axis=0)
+all_scores.to_csv(output_file, index=False)
+
 # Plot
-sns.set_style("darkgrid")
+# sns.set_style("darkgrid")
 
-all_scores = pd.concat([scores1, scores2], axis=0])
+# wide_df = all_scores.melt(
+#     id_vars=["model", "fold", "repeat"], var_name="metric"
+# )
 
-wide_df = all_scores.melt(
-    id_vars=["model", "fold", "repeat"], var_name="metric"
-)
-
-sns.catplot(
-    x="model", y="value", col="metric", data=wide_df, kind="box", sharey=False
-)
+# sns.catplot(
+#     x="model", y="value", col="metric", data=wide_df, kind="box", sharey=False
+# )
 
 # %%
+#corrected ttest
 stats_df = corrected_ttest(scores1, scores2)
 print(stats_df)
+
+# %%
+# Interactive plot
+panel = plot_scores(scores1, scores2)
+panel.show()
