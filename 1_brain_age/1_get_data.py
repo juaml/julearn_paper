@@ -15,4 +15,3 @@ for src_url in to_download:
     dst_fname = out_dir / src_url.split('/')[-1].split('?')[0]
     print(f"Downloading {src_url} to {dst_fname}")
     urllib.request.urlretrieve(src_url, dst_fname)
-# %%
