@@ -9,7 +9,8 @@ to_download = [
     "https://zenodo.org/record/7716839/files/ixi.S8_R8.csv?download=1",
 ]
 
-out_dir = Path(__file__).parent.parent / 'data'
+out_dir = Path(__file__).parent.parent / 'data' / '1_brain_age'
+out_dir.mkdir(parents=True, exist_ok=True)
 
 for src_url in to_download:
     dst_fname = out_dir / src_url.split('/')[-1].split('?')[0]
