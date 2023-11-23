@@ -78,5 +78,7 @@ axes[1].set_ylim(0, 0.3)
 axes[1].set_xlabel("Correlation sign (pos/neg)")
 axes[1].set_ylabel("Correlation (r)")
 axes[1].set_title("Correlation values across folds\nusing 10 times 10Fold-CV")
-fig
+# %%
+fig.savefig(results_dir / "3_gf.pdf", bbox_inches="tight")
+
 # %%

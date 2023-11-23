@@ -7,7 +7,7 @@ from julearn.viz import plot_scores
 output_dir = Path(__file__).parent.parent / "results" / "1_brain_age"
 output_file_prefix = "ixi.S4_R8_scores"
 
-models = ["rvr", "gauss", "svm"]
+models = ["gauss", "rvr", "svm"]
 
 all_scores = []
 for t_model in models:
