@@ -1,0 +1,401 @@
+,fit_time,score_time,estimator,test_neg_mean_absolute_error,test_neg_mean_squared_error,test_neg_root_mean_squared_error,test_neg_median_absolute_error,test_r2,test_r_corr,n_train,n_test,repeat,fold,cv_mdsum
+0,18.837213039398193,0.12681245803833008,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.9313776209950504,-20.283287993755287,-4.503697147206425,-4.0716115904047285,-0.07777601550423019,0.15518766347921445,331,37,0,0,d32d12ca55fa5c56652aa3bcedfc3c24
+1,18.684612274169922,0.12537837028503418,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.396483159454922,-25.939101127046694,-5.093044386911103,-4.122529247505913,0.11076702952554407,0.33695524397658977,331,37,0,1,d32d12ca55fa5c56652aa3bcedfc3c24
+2,18.674428462982178,0.12484145164489746,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.689753187062156,-34.31802226273559,-5.858158606826517,-3.8890633763403955,-0.3077262282938549,-0.05546618642418074,331,37,0,2,d32d12ca55fa5c56652aa3bcedfc3c24
+3,18.646496057510376,0.12499022483825684,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.063257179717639,-22.06610178870241,-4.6974569491058045,-4.082811301926219,0.0003146022657488645,0.25097252071756243,331,37,0,3,d32d12ca55fa5c56652aa3bcedfc3c24
+4,19.004667282104492,0.12518835067749023,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.1734233421236597,-15.300065986105603,-3.911529877951286,-2.7246131935197013,0.3416585889181992,0.5966634471410087,331,37,0,4,d32d12ca55fa5c56652aa3bcedfc3c24
+5,19.05238103866577,0.12491703033447266,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.230946508700624,-24.684651166593618,-4.96836503958733,-3.7627397612998994,-0.321909225749752,0.07745999871817126,331,37,0,5,d32d12ca55fa5c56652aa3bcedfc3c24
+6,18.953925371170044,0.12521862983703613,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.227523102527786,-27.36770038211454,-5.231414759136818,-3.778760275724686,-0.19915445599522474,0.03821058598734405,331,37,0,6,d32d12ca55fa5c56652aa3bcedfc3c24
+7,18.952975749969482,0.1258699893951416,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.211912518216791,-15.473545365880922,-3.9336427603280044,-2.39916698085338,0.22131732076566013,0.4751041330814764,331,37,0,7,d32d12ca55fa5c56652aa3bcedfc3c24
+8,18.99362301826477,0.12498950958251953,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.448770155396349,-28.01129970618037,-5.292570236301108,-3.536562302019501,-0.13687349427564088,0.036887016243098515,332,36,0,8,d32d12ca55fa5c56652aa3bcedfc3c24
+9,18.904555082321167,0.12402105331420898,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.233174956132732,-25.06188925839405,-5.006185100292842,-4.1447826358207385,-0.08866125285331616,0.22347200803512696,332,36,0,9,d32d12ca55fa5c56652aa3bcedfc3c24
+10,18.86423373222351,0.1247704029083252,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.829092691820443,-21.51076910240778,-4.637970364546089,-3.7232927245221106,0.11694125881023598,0.36612457446997326,331,37,1,0,d32d12ca55fa5c56652aa3bcedfc3c24
+11,18.703599214553833,0.12521147727966309,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.41053839194537,-25.475823454704983,-5.047358066821194,-4.665353944924071,-0.21928409696165296,0.09572855673647641,331,37,1,1,d32d12ca55fa5c56652aa3bcedfc3c24
+12,18.889856338500977,0.12419867515563965,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.156748260818731,-23.948822043116806,-4.893753369665946,-3.7533722725783463,0.03360439258896131,0.34090618297585784,331,37,1,2,d32d12ca55fa5c56652aa3bcedfc3c24
+13,18.77971363067627,0.12439608573913574,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.073296797619352,-23.320418806899973,-4.829121949889024,-4.063409431299121,-0.13428740661714156,0.16185173933839037,331,37,1,3,d32d12ca55fa5c56652aa3bcedfc3c24
+14,18.519541263580322,0.12498617172241211,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.5786066500594487,-22.95402403105359,-4.791035799391776,-2.9446829207083525,0.02826214056180465,0.2883790137216679,331,37,1,4,d32d12ca55fa5c56652aa3bcedfc3c24
+15,18.86384129524231,0.12464022636413574,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.588242585367316,-32.949378542665436,-5.740154923228592,-4.399470074730303,-0.6166475243677503,-0.19218035261700733,331,37,1,5,d32d12ca55fa5c56652aa3bcedfc3c24
+16,18.858142137527466,0.12389016151428223,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.826501102096248,-28.430991882046023,-5.3320720064573415,-4.990459034912277,0.020139270768818163,0.2226870561527635,331,37,1,6,d32d12ca55fa5c56652aa3bcedfc3c24
+17,18.77554225921631,0.12639665603637695,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.3948406891527747,-17.10605263381361,-4.135946401225917,-2.635906376435713,0.26088290444101625,0.5279540407043237,331,37,1,7,d32d12ca55fa5c56652aa3bcedfc3c24
+18,19.006881713867188,0.12473678588867188,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.8803702333020618,-22.532906129206836,-4.746883833548788,-3.7566517844220204,-0.26687112678200764,0.10232864671034012,332,36,1,8,d32d12ca55fa5c56652aa3bcedfc3c24
+19,18.90222954750061,0.12536382675170898,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.822837388626298,-21.533426997590645,-4.640412373657178,-3.931023702481893,0.007386754797173212,0.29811208555941693,332,36,1,9,d32d12ca55fa5c56652aa3bcedfc3c24
+20,18.757373094558716,0.12389969825744629,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.989310701616803,-24.051537802148296,-4.90423671962807,-3.7040445368949335,-0.050288843736555844,0.2582364624661419,331,37,2,0,d32d12ca55fa5c56652aa3bcedfc3c24
+21,18.94905710220337,0.12616324424743652,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.7528013961598443,-21.287786863774063,-4.613868969072926,-3.770648807226017,-0.01600126260307788,0.23598476227999848,331,37,2,1,d32d12ca55fa5c56652aa3bcedfc3c24
+22,18.90222477912903,0.12436962127685547,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.5567507246464585,-18.575516900623693,-4.309932354529905,-3.204633873898814,0.003765469052972148,0.26745650191747167,331,37,2,2,d32d12ca55fa5c56652aa3bcedfc3c24
+23,18.60529065132141,0.12414789199829102,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.333481719952337,-25.99932882770279,-5.098953699309574,-4.4920880815660915,-0.16859548115848422,0.16292257852222441,331,37,2,3,d32d12ca55fa5c56652aa3bcedfc3c24
+24,19.006932258605957,0.12414264678955078,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.462522519928879,-18.285426284675175,-4.276146195428212,-3.1966539921040855,0.04404076286105896,0.40585719445722895,331,37,2,4,d32d12ca55fa5c56652aa3bcedfc3c24
+25,18.62021040916443,0.12411189079284668,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.759298145164478,-20.515090074722984,-4.529358682498327,-3.483968317366191,-0.13760362574107932,0.24442928435977615,331,37,2,5,d32d12ca55fa5c56652aa3bcedfc3c24
+26,18.60278606414795,0.1235342025756836,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.871473125885265,-32.89405393430022,-5.735333811932851,-4.122311893700676,-0.08062871558977269,0.2934382453196267,331,37,2,6,d32d12ca55fa5c56652aa3bcedfc3c24
+27,18.653955459594727,0.12415933609008789,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.010681002499057,-21.155754826141287,-4.599538544913097,-3.850147630576757,0.13099410834771308,0.3708211886872038,331,37,2,7,d32d12ca55fa5c56652aa3bcedfc3c24
+28,18.812591791152954,0.12431883811950684,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.098436793850455,-23.822575996389688,-4.8808376326599605,-4.453164068373582,-0.021406639472029587,0.21012890474326043,332,36,2,8,d32d12ca55fa5c56652aa3bcedfc3c24
+29,18.674428462982178,0.12376117706298828,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.483907699000262,-31.37521039820213,-5.601357906633188,-4.063896559153818,-0.16537523432505918,0.07063642022610063,332,36,2,9,d32d12ca55fa5c56652aa3bcedfc3c24
+30,18.890204429626465,0.12506604194641113,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.874824576603484,-21.525862502547007,-4.639597234949065,-3.5919640191031093,-0.06586030692950162,0.2653498280590423,331,37,3,0,d32d12ca55fa5c56652aa3bcedfc3c24
+31,18.91949725151062,0.12430143356323242,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.4357240494653905,-29.975373631467956,-5.47497704392155,-4.209443426537714,-0.04338384188862521,0.20830810315503076,331,37,3,1,d32d12ca55fa5c56652aa3bcedfc3c24
+32,18.618804693222046,0.12465953826904297,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.8654849585093953,-22.464469232877,-4.739669738797947,-3.4734135473745553,-0.09717653870169896,0.07557275929377474,331,37,3,2,d32d12ca55fa5c56652aa3bcedfc3c24
+33,18.836316347122192,0.12482500076293945,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.227758535804818,-24.896652163356336,-4.989654513426389,-3.690000430652688,0.05517777868728668,0.28293106897675424,331,37,3,3,d32d12ca55fa5c56652aa3bcedfc3c24
+34,18.613253355026245,0.1246187686920166,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.331298249410854,-27.034604775444212,-5.199481202528211,-3.564910263791802,-0.203354595447494,-0.014177524415201403,331,37,3,4,d32d12ca55fa5c56652aa3bcedfc3c24
+35,18.76338243484497,0.12477946281433105,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.993438096572256,-24.606352233325797,-4.960479032646524,-3.3548686847146207,-0.1737315751715336,0.1749987072724399,331,37,3,5,d32d12ca55fa5c56652aa3bcedfc3c24
+36,18.77215838432312,0.12416696548461914,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.349465088189225,-29.186134448410677,-5.402419314382278,-3.923847425661984,-0.41797920575889735,-0.057577349305462475,331,37,3,6,d32d12ca55fa5c56652aa3bcedfc3c24
+37,18.84534525871277,0.12412810325622559,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.9687078493177324,-24.352795283454732,-4.934855143107519,-2.8608924904499347,-0.2484637785743531,0.08855976914354549,331,37,3,7,d32d12ca55fa5c56652aa3bcedfc3c24
+38,18.94166922569275,0.12429571151733398,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.6676731023977536,-19.740481082249474,-4.443026117664567,-3.01740900195289,0.22386726078951202,0.47614226481848865,332,36,3,8,d32d12ca55fa5c56652aa3bcedfc3c24
+39,18.64605474472046,0.12571120262145996,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.401902458001789,-24.093841614995412,-4.908547811216207,-4.850308760022143,0.027844995858217425,0.2673123290006426,332,36,3,9,d32d12ca55fa5c56652aa3bcedfc3c24
+40,21.88638424873352,0.12529420852661133,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.297839211626497,-25.486843979805137,-5.0484496610152645,-3.7303560996030285,0.015921440423250277,0.2932455694369938,331,37,4,0,d32d12ca55fa5c56652aa3bcedfc3c24
+41,17.395283460617065,0.12470221519470215,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.370557471018557,-25.8997182830692,-5.089176582028688,-3.703129192908424,-0.0005845560876436284,0.21096022484452567,331,37,4,1,d32d12ca55fa5c56652aa3bcedfc3c24
+42,17.293055295944214,0.12534832954406738,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.799180980615976,-32.75603035856855,-5.723288421752703,-4.645446059984298,-0.43644709977834406,-0.05343774037384806,331,37,4,2,d32d12ca55fa5c56652aa3bcedfc3c24
+43,17.33847141265869,0.12581849098205566,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.240822685795455,-26.510259617797413,-5.148811476233852,-3.468344848120349,0.08120138185405923,0.36030704616208103,331,37,4,3,d32d12ca55fa5c56652aa3bcedfc3c24
+44,17.338380813598633,0.12517857551574707,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.8057535764721147,-20.675795523306824,-4.547064495177831,-3.771698966269023,-0.20427008472630392,0.29894075235264517,331,37,4,4,d32d12ca55fa5c56652aa3bcedfc3c24
+45,17.47183108329773,0.12495708465576172,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.701441787857752,-18.756093779437027,-4.330830610799391,-3.610598007126887,-0.04514377987826812,0.24642887482777562,331,37,4,5,d32d12ca55fa5c56652aa3bcedfc3c24
+46,17.385826587677002,0.12444496154785156,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.113003968759707,-24.215311493476424,-4.920905556244341,-3.836386187310012,-0.007499435769791729,0.21815005069535576,331,37,4,6,d32d12ca55fa5c56652aa3bcedfc3c24
+47,18.819246530532837,0.12381601333618164,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.24126514499013,-31.3683722312035,-5.600747470758122,-3.556588728145112,-0.1673181902935088,0.13656652713805678,331,37,4,7,d32d12ca55fa5c56652aa3bcedfc3c24
+48,18.599498748779297,0.12444138526916504,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.907180581853875,-23.667259398672808,-4.864900759385828,-3.6470893564183413,-0.09847681770153471,0.1969384702530202,332,36,4,8,d32d12ca55fa5c56652aa3bcedfc3c24
+49,18.83910870552063,0.12383818626403809,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.67493108364923,-22.318159247085838,-4.724209907178748,-2.6895093753176695,-0.6824298734424876,0.068076350331365,332,36,4,9,d32d12ca55fa5c56652aa3bcedfc3c24
+50,19.16203212738037,0.12632322311401367,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.418764384204129,-26.712394919805146,-5.168403517509556,-4.48332336108308,-0.15864864853980265,0.10078044069722666,331,37,5,0,d32d12ca55fa5c56652aa3bcedfc3c24
+51,20.41853904724121,0.12889742851257324,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.795353168394255,-22.24229412600422,-4.716173674283446,-3.4256249239864545,-0.12302502981853602,0.16598075988519298,331,37,5,1,d32d12ca55fa5c56652aa3bcedfc3c24
+52,23.09217095375061,0.12617039680480957,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.690196064899265,-20.969231846948368,-4.579217383674679,-3.2583655379319083,0.07337384123717516,0.35900505115288495,331,37,5,2,d32d12ca55fa5c56652aa3bcedfc3c24
+53,17.362310886383057,0.12627601623535156,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.2450136287415585,-25.49157158613303,-5.048917862882405,-4.198240426127612,-0.35663044244348163,0.18314655390153417,331,37,5,3,d32d12ca55fa5c56652aa3bcedfc3c24
+54,18.18628191947937,0.12810158729553223,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.409977149889999,-27.05753325239451,-5.201685616451124,-4.271472549248269,0.050162494934917645,0.27331092425178993,331,37,5,4,d32d12ca55fa5c56652aa3bcedfc3c24
+55,18.19250226020813,0.12330150604248047,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.625872329269094,-19.041225276591913,-4.3636252447468395,-2.9733752309445336,-0.4332217618019756,0.16505620636521595,331,37,5,5,d32d12ca55fa5c56652aa3bcedfc3c24
+56,18.50052762031555,0.1256263256072998,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.97434243052689,-21.72895317993273,-4.661432524442752,-3.2517437839597925,0.0663233865873224,0.3411080787612859,331,37,5,6,d32d12ca55fa5c56652aa3bcedfc3c24
+57,17.617425441741943,0.12627100944519043,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.610225374579281,-32.54697745261705,-5.704995832830822,-3.2369951906273826,-0.3131981176726424,0.23369520315267725,331,37,5,7,d32d12ca55fa5c56652aa3bcedfc3c24
+58,17.593734979629517,0.12798571586608887,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.044073956944711,-23.9373987331186,-4.892586098692449,-4.348967451111198,0.026977738665693196,0.3059138357532181,332,36,5,8,d32d12ca55fa5c56652aa3bcedfc3c24
+59,22.631721019744873,0.1292402744293213,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.969363771170325,-23.948688752162617,-4.89373975116808,-3.70476266133306,-0.06540919342313423,0.21679063379741942,332,36,5,9,d32d12ca55fa5c56652aa3bcedfc3c24
+60,20.009925842285156,0.12537741661071777,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.421017711752543,-31.97131636277798,-5.654318381801469,-3.312186636164988,-0.2655043110114801,-0.024959221346803583,331,37,6,0,d32d12ca55fa5c56652aa3bcedfc3c24
+61,17.353205919265747,0.12500929832458496,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.597354343384344,-27.398116893644453,-5.2343210537417795,-4.93466821948258,0.035684337016678835,0.27631340986119435,331,37,6,1,d32d12ca55fa5c56652aa3bcedfc3c24
+62,17.299044847488403,0.12394356727600098,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.161544196500713,-27.405793344751814,-5.235054282884927,-3.334832061138499,-0.07103999683029483,0.24880626895146415,331,37,6,2,d32d12ca55fa5c56652aa3bcedfc3c24
+63,17.441458225250244,0.12534642219543457,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.458404709931264,-27.51455825671616,-5.2454321325050195,-4.499743890597321,-0.03961774821827202,0.17262424970514006,331,37,6,3,d32d12ca55fa5c56652aa3bcedfc3c24
+64,17.31203031539917,0.12508797645568848,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.544924091624934,-17.320354353125484,-4.161772981930356,-3.388013165690886,0.09074449308118804,0.3745794690959299,331,37,6,4,d32d12ca55fa5c56652aa3bcedfc3c24
+65,17.546374559402466,0.12534236907958984,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.397010736362783,-26.67964429771625,-5.1652341958246435,-3.968967564358735,-0.034627869343763606,0.16723634624957,331,37,6,5,d32d12ca55fa5c56652aa3bcedfc3c24
+66,19.056625366210938,0.12662124633789062,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.8189802840172957,-21.704570977820016,-4.65881647822921,-4.353864930797792,-0.48434197565369197,0.12237670617182726,331,37,6,6,d32d12ca55fa5c56652aa3bcedfc3c24
+67,22.58875036239624,0.12662529945373535,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.4032583959180323,-18.5820911291025,-4.310694970547383,-2.978189210766107,-0.2849218484564764,0.2940668154582697,331,37,6,7,d32d12ca55fa5c56652aa3bcedfc3c24
+68,18.68668270111084,0.12534809112548828,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.190190623635001,-26.838704678814395,-5.180608523987736,-3.900591649483589,-0.4491089140417224,-0.09318502896783194,332,36,6,8,d32d12ca55fa5c56652aa3bcedfc3c24
+69,17.39046812057495,0.1257038116455078,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.9526366879952217,-21.69127649159391,-4.657389450281554,-3.8486262375998956,0.20880655390769443,0.46511307488907333,332,36,6,9,d32d12ca55fa5c56652aa3bcedfc3c24
+70,17.344949960708618,0.12552332878112793,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.40751500190724,-27.070894469403026,-5.202969774023584,-4.590589171204925,-0.08350060018163785,0.21230903404667886,331,37,7,0,d32d12ca55fa5c56652aa3bcedfc3c24
+71,17.40271520614624,0.12468910217285156,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.977619745593038,-23.830954056370505,-4.881695817681649,-3.4787387067179125,-0.028582385496286777,0.24567854018406146,331,37,7,1,d32d12ca55fa5c56652aa3bcedfc3c24
+72,17.340506315231323,0.12487673759460449,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.4412110511499243,-17.600188839933455,-4.195257899096724,-2.817786966185597,-0.018026809272811528,0.27161439308437446,331,37,7,2,d32d12ca55fa5c56652aa3bcedfc3c24
+73,17.350280284881592,0.12397003173828125,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.100473917838801,-23.483143729915767,-4.845940954026965,-3.8042481471062892,0.013004305346473122,0.28483044911961963,331,37,7,3,d32d12ca55fa5c56652aa3bcedfc3c24
+74,20.723109245300293,0.12708616256713867,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-5.06880618818009,-35.18323838625539,-5.931546036764394,-4.816044945008716,-0.275849050402194,0.030814668647235095,331,37,7,4,d32d12ca55fa5c56652aa3bcedfc3c24
+75,22.478203773498535,0.12552976608276367,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.6743184115077145,-18.007210348945282,-4.24349034981173,-3.4249118362939726,0.14899644546720214,0.39820530755677525,331,37,7,5,d32d12ca55fa5c56652aa3bcedfc3c24
+76,17.548057079315186,0.12560606002807617,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.316736461966646,-19.56353082230714,-4.423068032746856,-2.319288909237411,0.16529097750612487,0.4173899223204962,331,37,7,6,d32d12ca55fa5c56652aa3bcedfc3c24
+77,17.481236219406128,0.12532472610473633,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.6403606698708035,-31.93324108915712,-5.650950458919024,-3.868073720544942,-0.48949257414160474,-0.11035287446712996,331,37,7,7,d32d12ca55fa5c56652aa3bcedfc3c24
+78,17.371317386627197,0.1253669261932373,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.3719683767134008,-17.740572627505156,-4.211955914715295,-2.941753967933032,0.179421745057044,0.4257157151929422,332,36,7,8,d32d12ca55fa5c56652aa3bcedfc3c24
+79,17.486698389053345,0.12706565856933594,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.450305856619342,-26.068312903761633,-5.105713750668131,-4.219468491852702,-0.0717423317347674,0.18652341945905693,332,36,7,9,d32d12ca55fa5c56652aa3bcedfc3c24
+80,17.442650079727173,0.12559080123901367,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.4915364395346726,-16.949657265326888,-4.116996145896531,-3.5902974319373975,0.022986071737578495,0.300158789989974,331,37,8,0,d32d12ca55fa5c56652aa3bcedfc3c24
+81,17.537264823913574,0.1252603530883789,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.812561181200554,-21.602352802583102,-4.647833129812548,-3.3857171157999524,-0.053491770687384754,0.28004730323742594,331,37,8,1,d32d12ca55fa5c56652aa3bcedfc3c24
+82,22.333977937698364,0.12715625762939453,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.417971300397064,-27.597055241131322,-5.253289944513945,-4.134834732046329,0.09991021524970733,0.3345367641822843,331,37,8,2,d32d12ca55fa5c56652aa3bcedfc3c24
+83,20.897741079330444,0.12560558319091797,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.783199673909153,-32.12650439953246,-5.66802473526117,-4.725598471558442,-0.14373496965100951,0.09015135218702106,331,37,8,3,d32d12ca55fa5c56652aa3bcedfc3c24
+84,17.476810455322266,0.12571096420288086,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.806527804743823,-21.77876990928778,-4.666772965260661,-3.480494845503859,-0.1328800063004396,0.1776682333903356,331,37,8,4,d32d12ca55fa5c56652aa3bcedfc3c24
+85,17.450359106063843,0.12531733512878418,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.079679443509488,-25.797897315884633,-5.079163052697229,-3.3857979452779574,-0.25283155109776745,0.07153797802854421,331,37,8,5,d32d12ca55fa5c56652aa3bcedfc3c24
+86,17.384122848510742,0.12626433372497559,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.702257236338016,-19.21363303092919,-4.383335833692097,-3.5978309682790552,-0.050457812274044,0.21140135766253254,331,37,8,6,d32d12ca55fa5c56652aa3bcedfc3c24
+87,17.484366416931152,0.12614870071411133,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.581079498141802,-31.398639568054353,-5.603448899388157,-4.471157192528196,-0.27249075099663744,-0.07616845223771633,331,37,8,7,d32d12ca55fa5c56652aa3bcedfc3c24
+88,17.497490406036377,0.12497663497924805,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.700541009084507,-29.283774178697374,-5.411448436296642,-4.692499928793897,-0.19933546124357848,0.016791006934998808,332,36,8,8,d32d12ca55fa5c56652aa3bcedfc3c24
+89,18.83971118927002,0.1275637149810791,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.312097497067588,-18.8203974234362,-4.338248197537365,-2.4460383706067077,0.20028737505661254,0.4491373619691935,332,36,8,9,d32d12ca55fa5c56652aa3bcedfc3c24
+90,22.63078761100769,0.1269526481628418,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.8632030653843072,-19.81734545009392,-4.451667715597596,-3.478557896312843,0.0021352831698331354,0.27732967109667045,331,37,9,0,d32d12ca55fa5c56652aa3bcedfc3c24
+91,19.23182988166809,0.12614011764526367,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.8239980159671156,-20.32696216155599,-4.508543241619846,-4.076361434682589,0.027074638166206588,0.28810647609445866,331,37,9,1,d32d12ca55fa5c56652aa3bcedfc3c24
+92,17.424253940582275,0.12377190589904785,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.6388626494889107,-19.23319733047864,-4.385566933758809,-3.132317103211456,0.01028991334290874,0.3022380882089728,331,37,9,2,d32d12ca55fa5c56652aa3bcedfc3c24
+93,18.087835788726807,0.12459325790405273,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.162282011107433,-21.754187102974978,-4.664138409500191,-4.455760869436622,0.02131179283691298,0.34103816642064255,331,37,9,3,d32d12ca55fa5c56652aa3bcedfc3c24
+94,18.10505962371826,0.12360215187072754,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.325166226469348,-27.65840281143511,-5.2591256698652025,-3.7039685382546494,-0.4089586012076605,-0.10597828857886533,331,37,9,4,d32d12ca55fa5c56652aa3bcedfc3c24
+95,17.934011936187744,0.12219977378845215,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.141604436027808,-27.19184143146568,-5.214579698447966,-3.6611945535951804,-0.05020681937811067,0.18778311960722005,331,37,9,5,d32d12ca55fa5c56652aa3bcedfc3c24
+96,17.895537853240967,0.12280821800231934,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-3.939696921553421,-24.373220744214834,-4.936924219006692,-3.5780724908148294,0.01896568273461985,0.25415263335835775,331,37,9,6,d32d12ca55fa5c56652aa3bcedfc3c24
+97,18.232648849487305,0.12126755714416504,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.171090507886517,-25.10818211187598,-5.010806533071895,-3.4193233833677397,0.01892050145112989,0.2929875183577932,331,37,9,7,d32d12ca55fa5c56652aa3bcedfc3c24
+98,18.124505043029785,0.12305450439453125,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.039799905264966,-22.504585282583356,-4.7438997968531496,-3.9102134357326923,0.06972625267198163,0.3173534008968703,332,36,9,8,d32d12ca55fa5c56652aa3bcedfc3c24
+99,18.178546667099,0.1204533576965332,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM(corr_sign='pos', significance_threshold=0.01)),
+                ('linreg', LinearRegression())])",-4.183248891231896,-28.292384132106417,-5.319058575735599,-2.9050416303274798,-0.16803420728879703,0.13375698341854006,332,36,9,9,d32d12ca55fa5c56652aa3bcedfc3c24

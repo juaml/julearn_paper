@@ -91,5 +91,6 @@ scores_raw.to_csv(out_dir / "scores_raw.csv")
 preds_raw.to_csv(out_dir / "preds_raw.csv")
 scores_corrected.to_csv(out_dir/ "scores_corrected.csv")
 preds_corrected.to_csv(out_dir / "preds_corrected.csv")
-data_df.to_csv(out_dir / "used_data.csv")
+pruned_data_df = data_df[["age", "current_diagnosis"]]
+pruned_data_df.to_csv(out_dir / "used_data.csv")
 # %%

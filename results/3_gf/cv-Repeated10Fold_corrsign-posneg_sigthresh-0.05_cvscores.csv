@@ -1,0 +1,301 @@
+,fit_time,score_time,estimator,test_neg_mean_absolute_error,test_neg_mean_squared_error,test_neg_root_mean_squared_error,test_neg_median_absolute_error,test_r2,test_r_corr,n_train,n_test,repeat,fold,cv_mdsum
+0,18.141267776489258,0.13272619247436523,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.126291515346031,-20.742248910337185,-4.554365917483705,-4.1643069928159875,-0.10216343573403219,0.21574017780056684,331,37,0,0,d32d12ca55fa5c56652aa3bcedfc3c24
+1,18.107584476470947,0.1316685676574707,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.209246046988013,-24.25686439305298,-4.925125825098581,-3.7190412450008026,0.1684367367634214,0.4144908124335661,331,37,0,1,d32d12ca55fa5c56652aa3bcedfc3c24
+2,18.20744013786316,0.1315317153930664,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.652461145588884,-34.370171407031535,-5.862607901525696,-4.075814362626584,-0.3097134291662358,-0.04947531643783464,331,37,0,2,d32d12ca55fa5c56652aa3bcedfc3c24
+3,18.258793354034424,0.12982797622680664,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.088993763390297,-23.43946776914735,-4.841432408817389,-4.0296729650604775,-0.061904539544732406,0.19925748215652064,331,37,0,3,d32d12ca55fa5c56652aa3bcedfc3c24
+4,18.20103621482849,0.12836074829101562,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.077122952067166,-16.13032987607872,-4.016258193403248,-2.4075132883506356,0.3059334422821295,0.563358058134667,331,37,0,4,d32d12ca55fa5c56652aa3bcedfc3c24
+5,18.35717511177063,0.12802672386169434,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.029238392985855,-21.8901385141889,-4.678689828807729,-3.782120212147543,-0.17225784798641075,0.1293224631195606,331,37,0,5,d32d12ca55fa5c56652aa3bcedfc3c24
+6,18.302415132522583,0.1309185028076172,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.086151388562527,-25.379801646345072,-5.037837000771767,-3.14148591439924,-0.1120518644810653,0.13323963663947638,331,37,0,6,d32d12ca55fa5c56652aa3bcedfc3c24
+7,18.412995100021362,0.13175582885742188,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.467980401519943,-18.094916648570855,-4.253812013779036,-2.8951314495267013,0.08940079062294148,0.3421737496670645,331,37,0,7,d32d12ca55fa5c56652aa3bcedfc3c24
+8,18.243408203125,0.12930035591125488,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.511444830088565,-29.631706744846277,-5.443501331390144,-3.683024422133286,-0.2026397325980449,-0.009485596240855532,332,36,0,8,d32d12ca55fa5c56652aa3bcedfc3c24
+9,18.239210844039917,0.12991595268249512,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.124063870573105,-24.478045122326193,-4.947529193681043,-3.6855900149975938,-0.0632996976214093,0.24967770518505272,332,36,0,9,d32d12ca55fa5c56652aa3bcedfc3c24
+10,18.251803874969482,0.12809205055236816,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.7779976282925563,-21.55421006903022,-4.642651189679257,-3.4602766308524338,0.11515792297881833,0.3798283861357685,331,37,1,0,d32d12ca55fa5c56652aa3bcedfc3c24
+11,18.235899686813354,0.12763214111328125,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.042677833057823,-22.842760518972074,-4.779410059722023,-3.8600025884694986,-0.09326454868105061,0.22091685844363587,331,37,1,1,d32d12ca55fa5c56652aa3bcedfc3c24
+12,18.193798065185547,0.1305384635925293,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.251359742444938,-25.233528847925854,-5.023298602305646,-4.01069043299718,-0.018236779838781025,0.29346703021416765,331,37,1,2,d32d12ca55fa5c56652aa3bcedfc3c24
+13,18.19615864753723,0.12725448608398438,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.8961688945671984,-21.656315384188108,-4.653634642318637,-3.224442804944495,-0.0533466837544776,0.2230074462758282,331,37,1,3,d32d12ca55fa5c56652aa3bcedfc3c24
+14,18.15614366531372,0.12675118446350098,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.766691838986354,-23.798048688058458,-4.878324372984894,-2.8958997228445256,-0.007468880386914067,0.2771412683221873,331,37,1,4,d32d12ca55fa5c56652aa3bcedfc3c24
+15,18.407211780548096,0.13065576553344727,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.6360720678382465,-33.03848935517093,-5.747911738637862,-4.362096826973538,-0.6210197092405201,-0.14510334971341626,331,37,1,5,d32d12ca55fa5c56652aa3bcedfc3c24
+16,18.265347480773926,0.12868690490722656,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.784387198478154,-28.757682187384496,-5.362618967201054,-4.4959685621844265,0.008880043438664331,0.21952256706098228,331,37,1,6,d32d12ca55fa5c56652aa3bcedfc3c24
+17,18.29216980934143,0.12665820121765137,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.397843764163596,-17.15467485862546,-4.141820234948091,-3.0214724512048257,0.25878203883795425,0.5247386861033023,331,37,1,7,d32d12ca55fa5c56652aa3bcedfc3c24
+18,18.152373552322388,0.13051486015319824,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.7371497140993952,-22.030101580432817,-4.6936235022030495,-3.458333189756315,-0.23860186752162282,0.12256062872133777,332,36,1,8,d32d12ca55fa5c56652aa3bcedfc3c24
+19,18.261688947677612,0.12699055671691895,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.9037133182346557,-22.56952643717842,-4.75073956739142,-3.2111443355186378,-0.04037368887011317,0.23748584196492312,332,36,1,9,d32d12ca55fa5c56652aa3bcedfc3c24
+20,18.117444038391113,0.12843012809753418,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.045175393414085,-24.151191466749893,-4.914386173953965,-3.604363101767852,-0.054640546028089654,0.2331521809886322,331,37,2,0,d32d12ca55fa5c56652aa3bcedfc3c24
+21,17.89878821372986,0.12765002250671387,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.6528038037625934,-20.7634021825121,-4.556687632756068,-2.838752346202835,0.009026021898652203,0.25997629711760106,331,37,2,1,d32d12ca55fa5c56652aa3bcedfc3c24
+22,18.16641402244568,0.12827086448669434,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.893128684886135,-21.520844295097604,-4.639056401370607,-3.576888911467833,-0.1541971260670929,0.18702844919073697,331,37,2,2,d32d12ca55fa5c56652aa3bcedfc3c24
+23,18.239616632461548,0.12790751457214355,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.2451804296283315,-24.90242551391287,-4.9902330119858,-4.016094963389177,-0.1192928139912901,0.21443663944483662,331,37,2,3,d32d12ca55fa5c56652aa3bcedfc3c24
+24,18.16904044151306,0.12844204902648926,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.4190676341638944,-16.81336824509216,-4.1004107410224355,-2.9558072221156166,0.12099972781138135,0.4434100911740699,331,37,2,4,d32d12ca55fa5c56652aa3bcedfc3c24
+25,18.27635383605957,0.13000035285949707,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.602276931558488,-21.285914457156313,-4.613666053926781,-3.061343110436507,-0.18034741136774923,0.20330926191284285,331,37,2,5,d32d12ca55fa5c56652aa3bcedfc3c24
+26,18.166595220565796,0.12724757194519043,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.84895677321245,-32.435473179715636,-5.6952149370954945,-4.225351019867638,-0.06556351466286037,0.315095371286802,331,37,2,6,d32d12ca55fa5c56652aa3bcedfc3c24
+27,18.071186065673828,0.1286313533782959,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.927659192268993,-20.314641885544226,-4.507176708932569,-3.7621858417581286,0.16554414482387048,0.40886762930649967,331,37,2,7,d32d12ca55fa5c56652aa3bcedfc3c24
+28,18.002702236175537,0.12686681747436523,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.023932065880927,-22.712382530631647,-4.765750993351588,-4.350823639351399,0.026193543530664165,0.26506398607431164,332,36,2,8,d32d12ca55fa5c56652aa3bcedfc3c24
+29,18.07938861846924,0.12962722778320312,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.67673033748472,-33.022284507381904,-5.746501936602989,-3.7604071402258494,-0.22655281215083556,-0.01736847396264613,332,36,2,9,d32d12ca55fa5c56652aa3bcedfc3c24
+30,18.141727924346924,0.1285238265991211,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.7076719703640237,-20.428262492301634,-4.519763543848465,-3.2582389614146265,-0.011512274014791046,0.32114564110680804,331,37,3,0,d32d12ca55fa5c56652aa3bcedfc3c24
+31,18.256957054138184,0.12897038459777832,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.338325088143517,-29.185311884992814,-5.402343184673926,-4.141919041349997,-0.015883345297613927,0.23545850727073206,331,37,3,1,d32d12ca55fa5c56652aa3bcedfc3c24
+32,18.34961986541748,0.12918400764465332,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.060566936025841,-23.796494208806973,-4.878165045261074,-3.7750294566731952,-0.16223334184290916,0.010713959592762534,331,37,3,2,d32d12ca55fa5c56652aa3bcedfc3c24
+33,18.278797149658203,0.12949681282043457,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.382285509045801,-27.722130955707748,-5.265180999330198,-4.211441794882184,-0.05204849138891987,0.18144209778911294,331,37,3,3,d32d12ca55fa5c56652aa3bcedfc3c24
+34,18.1816086769104,0.12717795372009277,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.2411153923179565,-27.033081547669187,-5.199334721641721,-3.604611350031277,-0.20328679408112627,0.04334351912374073,331,37,3,4,d32d12ca55fa5c56652aa3bcedfc3c24
+35,18.272454023361206,0.12741827964782715,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.043700853198404,-25.428664900313088,-5.042684295126266,-3.0535795807160255,-0.2129561759069203,0.18648551671187258,331,37,3,5,d32d12ca55fa5c56652aa3bcedfc3c24
+36,18.131606340408325,0.12788176536560059,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.1818954621283675,-26.852017469695735,-5.181893232178345,-3.462455230829839,-0.3045784624889438,0.0008980398478193983,331,37,3,6,d32d12ca55fa5c56652aa3bcedfc3c24
+37,18.176335334777832,0.1285102367401123,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.977395716300582,-23.48372253200097,-4.846000673957957,-3.523262894173488,-0.20391013130277602,0.0708884914760757,331,37,3,7,d32d12ca55fa5c56652aa3bcedfc3c24
+38,18.121201276779175,0.12755990028381348,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.5720411500442517,-18.297572683122446,-4.2775662102558325,-3.2599854862963493,0.28059781581389176,0.5315479740207896,332,36,3,8,d32d12ca55fa5c56652aa3bcedfc3c24
+39,18.262343168258667,0.12908697128295898,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.411177828433016,-24.366173647425907,-4.936210454126313,-4.651915379146255,0.01685675445006285,0.2534279380325907,332,36,3,9,d32d12ca55fa5c56652aa3bcedfc3c24
+40,18.156932592391968,0.12953543663024902,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.961582505721675,-22.069475348693764,-4.697816019034139,-3.430750460139258,0.14787026871723352,0.39151347335367703,331,37,4,0,d32d12ca55fa5c56652aa3bcedfc3c24
+41,18.21552610397339,0.14408493041992188,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.51832074894467,-27.070483201861574,-5.20293025148921,-3.9473924251933568,-0.045814750630672085,0.1752053158958392,331,37,4,1,d32d12ca55fa5c56652aa3bcedfc3c24
+42,17.157248735427856,0.12840604782104492,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.840455371251975,-33.753415103928766,-5.809768937223645,-4.038828116040463,-0.4801853186391978,-0.09833329219344791,331,37,4,2,d32d12ca55fa5c56652aa3bcedfc3c24
+43,17.301965475082397,0.13051509857177734,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.122329481476234,-26.148315319923714,-5.113542345568648,-3.3445939033697485,0.09374572979808682,0.3963185406149759,331,37,4,3,d32d12ca55fa5c56652aa3bcedfc3c24
+44,17.431293725967407,0.13187146186828613,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.7815450236889574,-21.159597757617814,-4.59995627779415,-3.1658454162560083,-0.23244934182176635,0.2825315264974881,331,37,4,4,d32d12ca55fa5c56652aa3bcedfc3c24
+45,17.37540602684021,0.1290910243988037,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.6916439068233897,-19.314303681713746,-4.394804168755844,-3.223748786099467,-0.07624884973404922,0.18560466550118998,331,37,4,5,d32d12ca55fa5c56652aa3bcedfc3c24
+46,17.315706253051758,0.13183283805847168,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.106305645181585,-23.976406534166756,-4.896570895449871,-3.4702297008049285,0.0024404162024588283,0.23116405676873403,331,37,4,6,d32d12ca55fa5c56652aa3bcedfc3c24
+47,17.520559310913086,0.12871146202087402,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.111305068467822,-28.928699550058607,-5.378540652450124,-2.907416996074609,-0.07653010992797205,0.24024450889709642,331,37,4,7,d32d12ca55fa5c56652aa3bcedfc3c24
+48,17.224836111068726,0.13465166091918945,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.833364878908105,-23.811451251021833,-4.879697864727061,-2.935371748561783,-0.10516924475608946,0.21653942783803284,332,36,4,8,d32d12ca55fa5c56652aa3bcedfc3c24
+49,18.23186421394348,0.13104510307312012,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.7036684837284963,-21.91711346135876,-4.681571687089578,-3.4133587730970003,-0.6521974782410978,0.08547010355385738,332,36,4,9,d32d12ca55fa5c56652aa3bcedfc3c24
+50,18.207700490951538,0.12960481643676758,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.19178455918208,-25.618535738382036,-5.0614756483047545,-3.4454060532316078,-0.11120256719615407,0.18773141850860697,331,37,5,0,d32d12ca55fa5c56652aa3bcedfc3c24
+51,18.07593011856079,0.13018202781677246,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.77293207488033,-20.825888536228494,-4.563539036343229,-3.4775775318658404,-0.05150997293268467,0.2008751957886797,331,37,5,1,d32d12ca55fa5c56652aa3bcedfc3c24
+52,17.89371418952942,0.12937617301940918,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.612868955762402,-20.56621748174702,-4.534999171085594,-3.123706056320522,0.09118296538051407,0.36563644603255835,331,37,5,2,d32d12ca55fa5c56652aa3bcedfc3c24
+53,17.253376007080078,0.12993478775024414,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.447521218018919,-27.144032671304252,-5.209993538508877,-3.8648381698973395,-0.4445724120282819,0.09069478713715257,331,37,5,3,d32d12ca55fa5c56652aa3bcedfc3c24
+54,17.647871732711792,0.1313307285308838,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.296078908565711,-25.01900043187869,-5.001899682308582,-4.731812807692615,0.1217238937575792,0.37732346373176523,331,37,5,4,d32d12ca55fa5c56652aa3bcedfc3c24
+55,17.230714082717896,0.12840604782104492,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.5420324272318946,-18.807398188246683,-4.336749726263516,-2.8449051310228555,-0.4156217351940681,0.16392567246232762,331,37,5,5,d32d12ca55fa5c56652aa3bcedfc3c24
+56,17.271380186080933,0.13000917434692383,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.161394585632201,-23.866247396428648,-4.88530934500863,-3.751504083990973,-0.025514522464244127,0.25300767281296505,331,37,5,6,d32d12ca55fa5c56652aa3bcedfc3c24
+57,18.360750913619995,0.13249492645263672,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.683899796363925,-35.15509659305572,-5.929173348204261,-3.580915561435887,-0.4184299214822662,0.17396239551677115,331,37,5,7,d32d12ca55fa5c56652aa3bcedfc3c24
+58,18.19779872894287,0.1300058364868164,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.166548762290692,-25.059046953407208,-5.0059012129093405,-4.033996441187333,-0.01861571532213846,0.25318600935660157,332,36,5,8,d32d12ca55fa5c56652aa3bcedfc3c24
+59,18.38734197616577,0.1312122344970703,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.5770137111246907,-20.40723294907468,-4.517436546214532,-2.895530949412173,0.09214012419330009,0.3577699634498826,332,36,5,9,d32d12ca55fa5c56652aa3bcedfc3c24
+60,18.320833921432495,0.13457751274108887,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.3932125498263295,-32.63596771576753,-5.7127898364781045,-3.0731037678737394,-0.2918128665612023,-0.03762656471694582,331,37,6,0,d32d12ca55fa5c56652aa3bcedfc3c24
+61,17.985931634902954,0.1285092830657959,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.818796447186023,-31.059240599832172,-5.573081786573042,-4.396138766438646,-0.0931741151061869,0.1974773780943441,331,37,6,1,d32d12ca55fa5c56652aa3bcedfc3c24
+62,17.243396997451782,0.13100862503051758,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.988333310620281,-25.840299101574733,-5.083335430755552,-3.504555383771109,-0.009859248360142958,0.27657869782538197,331,37,6,2,d32d12ca55fa5c56652aa3bcedfc3c24
+63,17.222469329833984,0.12839531898498535,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.332692689033658,-26.067577116706662,-5.1056416949005206,-4.194780072398785,0.015055391014257458,0.23357848008655155,331,37,6,3,d32d12ca55fa5c56652aa3bcedfc3c24
+64,17.315048933029175,0.13311433792114258,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.656714715497024,-18.29135701996703,-4.2768396065280525,-3.1939143077935768,0.0397703903545189,0.33595254958539333,331,37,6,4,d32d12ca55fa5c56652aa3bcedfc3c24
+65,17.43945574760437,0.13020730018615723,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.4166638487840455,-26.47362217937581,-5.145252392193779,-4.28488867447939,-0.026638399058565243,0.1783141754941789,331,37,6,5,d32d12ca55fa5c56652aa3bcedfc3c24
+66,17.45540976524353,0.1293492317199707,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.8983883549242164,-21.844742701604304,-4.673835972903232,-3.398507426007402,-0.4939281026324456,0.07685416136372016,331,37,6,6,d32d12ca55fa5c56652aa3bcedfc3c24
+67,17.418102979660034,0.1316688060760498,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.490841910687188,-18.865721468220908,-4.34346882896849,-2.437009112129509,-0.3045344322656036,0.2846658395784223,331,37,6,7,d32d12ca55fa5c56652aa3bcedfc3c24
+68,17.531529188156128,0.12881970405578613,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.038175191494168,-25.188415447620073,-5.018806177530676,-3.7106809659985416,-0.36000443361728207,-0.0048929211921936045,332,36,6,8,d32d12ca55fa5c56652aa3bcedfc3c24
+69,17.191681623458862,0.12836647033691406,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.798664642721177,-19.49855874964799,-4.415717240681064,-3.3022632118896027,0.28878635164943867,0.5451229646390199,332,36,6,9,d32d12ca55fa5c56652aa3bcedfc3c24
+70,17.161429405212402,0.13194584846496582,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.22655385363766,-25.04984719989492,-5.004982237720222,-4.220962809644442,-0.0026090754489576096,0.25330495421862015,331,37,7,0,d32d12ca55fa5c56652aa3bcedfc3c24
+71,17.151670932769775,0.12849164009094238,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.756336592480597,-21.395457795576213,-4.625522434879785,-3.233507667873006,0.07653755841655085,0.397932012082509,331,37,7,1,d32d12ca55fa5c56652aa3bcedfc3c24
+72,17.16323757171631,0.1299440860748291,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.1660333655967325,-15.570549936533423,-3.945953615608453,-2.3585150077143595,0.09937118205533801,0.37325336795027575,331,37,7,2,d32d12ca55fa5c56652aa3bcedfc3c24
+73,17.507841110229492,0.13181424140930176,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.338934418059812,-24.558364212273617,-4.9556396370472315,-4.094228352031216,-0.03218717323475917,0.23224322853023885,331,37,7,3,d32d12ca55fa5c56652aa3bcedfc3c24
+74,17.357930421829224,0.12907099723815918,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-5.001232605922275,-34.0637734732506,-5.8364178631460755,-5.0709277616868125,-0.23525391727272904,0.05796128499106921,331,37,7,4,d32d12ca55fa5c56652aa3bcedfc3c24
+75,17.353885173797607,0.12960147857666016,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.7163521941568884,-19.558553255661046,-4.422505314373409,-3.845722037316982,0.07568146206158632,0.3327635491585474,331,37,7,5,d32d12ca55fa5c56652aa3bcedfc3c24
+76,17.377503871917725,0.13173961639404297,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.477563089884403,-21.143165660355955,-4.5981698163895555,-2.3692237690633675,0.09789335569945457,0.36082780756588695,331,37,7,6,d32d12ca55fa5c56652aa3bcedfc3c24
+77,17.335716247558594,0.1275629997253418,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.632387054148693,-33.07150523148186,-5.750783010293629,-3.1613320092645854,-0.5425857125008062,-0.1477373535789203,331,37,7,7,d32d12ca55fa5c56652aa3bcedfc3c24
+78,17.180140733718872,0.1270313262939453,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.1138337706573376,-15.188154060368106,-3.897198232110872,-2.22865349076384,0.297482149176021,0.5483649701246869,332,36,7,8,d32d12ca55fa5c56652aa3bcedfc3c24
+79,17.203272104263306,0.13073992729187012,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.177580243867539,-24.01291508843972,-4.900297448975901,-3.590341312892537,0.012760906175875553,0.27267558407738207,332,36,7,9,d32d12ca55fa5c56652aa3bcedfc3c24
+80,17.253097772598267,0.12923598289489746,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.7298531782222386,-18.962474693983214,-4.3545923682915735,-3.592500774729441,-0.09303696236054826,0.19813377117101041,331,37,8,0,d32d12ca55fa5c56652aa3bcedfc3c24
+81,17.41139316558838,0.1299726963043213,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.8375281141428252,-21.501509797157702,-4.636972050504262,-3.159053731328015,-0.04857391394659771,0.30757843582904365,331,37,8,1,d32d12ca55fa5c56652aa3bcedfc3c24
+82,17.432218313217163,0.13138532638549805,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.259101411030573,-26.186256766588556,-5.117250899319727,-3.523509980383764,0.14592401216325013,0.3918055821036288,331,37,8,2,d32d12ca55fa5c56652aa3bcedfc3c24
+83,17.406164169311523,0.12971901893615723,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.6745858970763114,-31.041712753726937,-5.571509019442304,-4.444126157130022,-0.105115326360123,0.12943666375804128,331,37,8,3,d32d12ca55fa5c56652aa3bcedfc3c24
+84,17.42520761489868,0.12990212440490723,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.698750157406958,-21.897922637906976,-4.679521624900025,-2.929329814724344,-0.13907804891308784,0.1563745240572673,331,37,8,4,d32d12ca55fa5c56652aa3bcedfc3c24
+85,17.407604217529297,0.1303713321685791,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.141875750163886,-26.166348951344503,-5.115305362472949,-3.332733938550909,-0.2707247858953752,0.08488858077689465,331,37,8,5,d32d12ca55fa5c56652aa3bcedfc3c24
+86,17.169240474700928,0.12786436080932617,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.86535820029675,-19.50277223094557,-4.4161943153518015,-3.411160685930909,-0.06626578211519507,0.21904928771336277,331,37,8,6,d32d12ca55fa5c56652aa3bcedfc3c24
+87,17.193078994750977,0.12784433364868164,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.1695484248413965,-27.700509113604657,-5.263127313072016,-3.359608347494529,-0.12261684359161573,0.087494967045371,331,37,8,7,d32d12ca55fa5c56652aa3bcedfc3c24
+88,17.227681636810303,0.13098430633544922,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.685550980872907,-29.546145017737288,-5.4356365788872685,-4.376469427183317,-0.21008102461722666,0.020664643416440334,332,36,8,8,d32d12ca55fa5c56652aa3bcedfc3c24
+89,17.532705545425415,0.12883877754211426,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.4713919564612032,-19.902313463658917,-4.461200899271285,-2.413028205933429,0.15431481151141124,0.41014987481110216,332,36,8,9,d32d12ca55fa5c56652aa3bcedfc3c24
+90,17.339681386947632,0.13212800025939941,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.891428230407832,-20.94334620934875,-4.576390084919417,-3.7432259725397152,-0.05456234223180956,0.22996831792430497,331,37,9,0,d32d12ca55fa5c56652aa3bcedfc3c24
+91,17.539180994033813,0.13040733337402344,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.363832768405772,-25.698638904118944,-5.06938249731848,-4.5387478931420375,-0.23003414655404653,0.1382048400720007,331,37,9,1,d32d12ca55fa5c56652aa3bcedfc3c24
+92,17.44304847717285,0.13107919692993164,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.818031453112156,-19.882964236648892,-4.459031759995536,-3.309060103245436,-0.02314606976290534,0.25857438966708307,331,37,9,2,d32d12ca55fa5c56652aa3bcedfc3c24
+93,17.384645700454712,0.1333026885986328,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.217191393585835,-23.26560270902097,-4.823443034702594,-4.108032497628475,-0.0466845254239141,0.2871020471706309,331,37,9,3,d32d12ca55fa5c56652aa3bcedfc3c24
+94,17.177968740463257,0.1271984577178955,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.3347905669425595,-28.443274652859046,-5.333223664244642,-3.627528223540523,-0.4489410954738422,-0.15417342153765703,331,37,9,4,d32d12ca55fa5c56652aa3bcedfc3c24
+95,17.23150110244751,0.1310715675354004,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.0460819091122255,-26.15348961452032,-5.1140482608712565,-3.3486237460191077,-0.010103461103603273,0.2112883313434012,331,37,9,5,d32d12ca55fa5c56652aa3bcedfc3c24
+96,17.208865642547607,0.12763309478759766,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.825427818017533,-22.190307557108866,-4.710658930246263,-3.192803215149887,0.10682902958714457,0.33242979318238325,331,37,9,6,d32d12ca55fa5c56652aa3bcedfc3c24
+97,17.438116550445557,0.1279923915863037,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.316942452653684,-27.23605957779103,-5.218817833359489,-3.55357348806373,-0.06422438526075802,0.2522191085582326,331,37,9,7,d32d12ca55fa5c56652aa3bcedfc3c24
+98,18.25531029701233,0.1302633285522461,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-3.3747024554988965,-15.533188134235793,-3.9412165804781387,-3.232024059894913,0.3579034249180407,0.601302998538785,332,36,9,8,d32d12ca55fa5c56652aa3bcedfc3c24
+99,18.14435124397278,0.12849211692810059,"Pipeline(steps=[('set_column_types',
+                 SetColumnTypes(X_types={'continuous': ['.*']})),
+                ('cbpm', CBPM()), ('linreg', LinearRegression())])",-4.212187910564804,-28.78244504156747,-5.364927309998475,-2.9545720772095105,-0.18826607969773979,0.1255910756833215,332,36,9,9,d32d12ca55fa5c56652aa3bcedfc3c24

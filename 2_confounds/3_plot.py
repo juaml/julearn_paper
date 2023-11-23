@@ -133,4 +133,6 @@ annotator = Annotator(
 annotator.configure(test="t-test_ind", text_format="star", loc="inside")
 annotator.apply_and_annotate()
 
+fig.savefig(results_dir / "fig4.pdf", dpi=300)
+
 # %%
