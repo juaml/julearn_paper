@@ -1,24 +1,5 @@
 #
-# Follow this steps to first download the data from LONI.
-# If you already have an account and access to ADNI, you can skip to step 6
-# 
-# 1) Create an account in LONI: https://ida.loni.usc.edu
-# 2) Once you login, select "ADNI" in feature studies.
-# 3) Click on the "Apply for access" button.
-# 4) Complete the application form and submit it.
-# 5) Wait for the approval email. This may take a few days.
-#
-#
-# 6) Login into LONI: https://ida.loni.usc.edu
-# 7) Select ADNI
-# 8) Download -> Study data
-# 9) Select the following options:
-# * Diagnosis -> Diagnosis Summary
-# * Imaging -> MR Image Analysis -> 
-# * UCSF - Cross-Sectional FreeSurfer (6.0) Dictionary [ADNI3] 
-# * UCSF - Cross-Sectional FreeSurfer (6.0) [ADNI3] 
-# * Subject characteristics -> Subject demographics
-# 10) Download the files and place them in the `data/2_confounds` directory.
+# Check the README.md file for more details on how to download the data.
 
 import pandas as pd
 import numpy as np
@@ -26,14 +7,13 @@ from pathlib import Path
 
 data_dir = Path(__file__).parent.parent / 'data' / '2_confounds'
 
-d = pd.read_csv('ADNI/DXSUM_PDXCONV_ADNIALL.csv')
-#w = pd.read_csv('ADNI_whitematter_hyperintensity/ADNI_UCD_WMH_05_02_22.csv')
-#w = pd.read_csv('ADNI_FS_51/UCSFFSX51_11_08_19.csv')
-w = pd.read_csv('ADNI/UCSFFSX6_08_17_22.csv')
+d = pd.read_csv(data_dir / 'DXSUM_PDXCONV_ADNIALL.csv')
+
+w = pd.read_csv(data_dir / 'UCSFFSX6_08_17_22.csv')
 
 w.rename(columns={'COLPROT':'Phase'}, inplace=True)
 
-demog = pd.read_csv('ADNI/PTDEMOG.csv')
+demog = pd.read_csv(data_dir / 'PTDEMOG.csv')
 demog = demog[demog.Phase=='ADNI3']
 
 #%%

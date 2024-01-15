@@ -16,7 +16,7 @@ from julearn import run_cross_validation
 # %%
 configure_logging(level="INFO")
 
-data_dir = Path(__file__).parent.parent / "data"
+data_dir = Path(__file__).parent.parent / "data" / "1_brain_age"
 output_dir = Path(__file__).parent.parent / "results" / "1_brain_age"
 
 output_dir.mkdir(parents=True, exist_ok=True)
